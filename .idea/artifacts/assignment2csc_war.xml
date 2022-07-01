@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="assignment2csc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>assignment2csc</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="assignment2csc-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="assignment2csc:war exploded" />
+    </root>
+  </artifact>
+</component>
